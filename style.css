@@ -55,7 +55,7 @@
     color: #fff;
 }
 .content h1{
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 80px;
 }
 .content p{
@@ -93,4 +93,34 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .navbar ul li {
+        display: none;
+    }
+    .logo {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+
+    .content {
+        text-align: center;
+    }
+    .content p{
+        margin: 20px 35px;
+        font-weight: 100;
+        line-height: 25px;
+    }
+
+    button {
+        width: 50%;
+        margin-bottom: 10px;
+    }
 }
