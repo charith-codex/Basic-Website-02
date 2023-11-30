@@ -109,14 +109,22 @@ a{
         transform: translateX(-50%);
     }
     
-
     .content {
         text-align: center;
+    }
+    .content h1{
+        font-size: 45px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .content p{
         margin: 20px 35px;
         font-weight: 100;
         line-height: 25px;
+    }
+    
+    br{
+        display: none;
     }
 
     button {
